@@ -1,0 +1,30 @@
+<h1>This is an simple example for different types of One way Bindings</h1>
+
+
+<h3>String Interpolation</h3>
+<h5>You can modify the below message by changing the value in component(.ts) file</h5>
+<p style="color: blueviolet;">{{ message }}</p>
+
+
+<h3>Event Binding</h3>
+<h5>Example for Event Binding, Please click the button below to trigger the event binding</h5>
+<input type="text" value={{eventBindingValue}} readonly>&nbsp;
+<button (click)="eventBinding()">Click Me</button>&nbsp;
+<button (click)="clearEventBinding()">Clear</button>
+
+
+
+<h3>Property Binding</h3>
+<h5>Example for property Binding, the value of the text box is from the component(.ts) file</h5>
+<input type="text" [value]="properyBindingValue" readonly>&nbsp;
+
+<h3>Class Binding</h3>
+<h5>Example for class Binding, the value of the cdd class is from the component(.ts) file</h5>
+<p [class]="classBinding">CSS effects are from the class binding</p>
+<h5>Another Example for class Binding</h5>
+<p [class.anotherExample]=true>CSS effects are from the class binding</p>
+
+<h3>Style Binding</h3>
+<h5>Example for style Binding, the value of the style attribute is from the component(.ts) file</h5>
+<p [style.color]="red">CSS effects are from the style.color binding</p>
+

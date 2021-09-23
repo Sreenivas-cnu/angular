@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.myCss{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.anotherExample{
+    color: lightskyblue;
+    text-transform: uppercase;
+}
